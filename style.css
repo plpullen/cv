@@ -215,6 +215,33 @@ p {
     top: 250px;
     width: 125px;
   }
+
+  .skill-row {
+    text-align: none;
+  }
+
+  .skill-row p,
+  .skill-row h1 {
+    text-align: start;
+  }
+
+  .skills img {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    float: none;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+  .circle {
+    bottom: -150px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
