@@ -91,7 +91,7 @@ p {
 }
 
 .profile {
-  margin-top: 300px;
+  margin-top: 250px;
   width: 40%;
   display: inline-block;
 }
@@ -99,7 +99,7 @@ p {
 #profile {
   position: absolute;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 25px;
   width: 200px;
   left: 0;
   right: 0;
@@ -168,9 +168,46 @@ p {
   text-decoration: none;
 }
 
-.bottom-container {
+.links-container {
   background-color: #82a5c2;
   padding: 50px;
+}
+
+.links-container a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #273e47;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 3;
+  text-decoration: none;
+}
+.links-container p {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-link{
+  color: #273e47;
+  border-style: solid;
+  border-color: #82a5c2;
+  border-width: .15rem;
+  border-radius: 10px;
+  padding: .5rem
+}
+.footer-link:hover{
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: .15rem;
+  border-radius: 10px;
+}
+
+.bottom-container {
+  background-color: #82a5c2;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .bottom-container a {
@@ -187,6 +224,8 @@ p {
   color: white;
   font-size: 0.8rem;
 }
+
+
 
 @media (max-width: 425px) {
   .top-container {
